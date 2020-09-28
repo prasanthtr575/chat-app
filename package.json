@@ -1,0 +1,26 @@
+{
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "Chat application",
+  "main": "./src/server.js",
+  "scripts": {
+    "dev": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prasanthtr575/chat-app.git"
+  },
+  "author": "Prasanth Raghavan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/prasanthtr575/chat-app/issues"
+  },
+  "homepage": "https://github.com/prasanthtr575/chat-app#readme",
+  "dependencies": {
+    "apollo-server": "^2.18.1",
+    "graphql": "^15.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
