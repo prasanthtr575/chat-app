@@ -5,5 +5,5 @@ yarn.lock
 .nyc_output
 coverage
 build/
-
 config.json
+env.json
